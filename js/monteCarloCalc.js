@@ -28,7 +28,7 @@
                 //胜率
                 chance: (chance * 100).toFixed(2) + '%',
                 //期望收益
-                expect: ((chance * (this.players - 1) * 4 - (1 - chance) * 2) * 50).toFixed(2) + '%'
+                expect: ((chance * (this.players - 1) * 2 - (1 - chance) * 4) * 25).toFixed(2) + '%'
             }
         },
         init: function (pokerGroup, players) {
